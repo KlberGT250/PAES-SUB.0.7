@@ -1,0 +1,137 @@
+/* ==================== TELA 03 - INFORMAÇÕES REQUERIDAS ================== */
+.container-aud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: var(--central-senha);
+    width: 500px;
+    height: 500px;
+    border: solid 2px var(--forum-color);
+    border-radius: 5px;
+}
+
+.container-elemntos-t3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1,
+.container-aud {
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.selecao-ho {
+    font-size: 30px;
+}
+
+.btn-T4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.ho,
+.ho {
+    background-color: var(--color-buton);
+    border-radius: 10px;
+    padding: 10px 23px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.ho-1 {
+    background-color: var(--color-buton);
+    border-radius: 10px;
+    padding: 10px 31px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.ho-2 {
+    background-color: var(--color-buton);
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+
+button {
+    background-color: var(--color-buton);
+    color: var(--central-senha);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ho:hover,
+.ho-2:hover,
+.ho-1:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.opcao {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opcao h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.li-1,
+.li-2,
+.li-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li-2 {
+    gap: 20px;
+}
+
+.r-1,
+.r-2,
+.r-3 {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-op-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-op {
+    background-color: var(--color-buton);
+    border-radius: 5px;
+    padding: 15px;
+}

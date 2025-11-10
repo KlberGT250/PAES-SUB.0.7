@@ -1,0 +1,58 @@
+/* ============== TELA-02 - SERVIÇOS ==================*/
+.container-op {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: var(--central-senha);
+    width: 500px;
+    height: 500px;
+    border: solid 2px var(--forum-color);
+    border-radius: 5px;
+    gap: 25px;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,.TE-2{
+    font-size: 35px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px
+}
+
+.btn-T2 {
+    justify-content: center;
+    padding: 30px 40px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.btn-T2-2 {
+    justify-content: center;
+    padding: 30px 48px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+button, .btn-T2,.btn-T2-2 {
+    background-color: var(--color-buton);
+    color: var(--text-p-h2);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all;
+    
+}
+
+.btn-T2:hover,
+.btn-T2-2:hover  {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
